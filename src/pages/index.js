@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 // 1. 在顶部引入你的图表组件 (注意核对相对路径，比如 './components/barChart' 或者 '../components/barChart')
-import BarChart from '../components/barChart'; 
-import ScatterPlot from '../components/scatterPlot';
+import BarChart from '../../components/barChart'; 
+import ScatterPlot from '../../components/scatterPlot';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
